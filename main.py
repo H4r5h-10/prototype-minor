@@ -17,7 +17,7 @@ import pandas as pd  # Import pandas for spreadsheet handling
 # Load environment variables
 load_dotenv()
 os.getenv("GOOGLE_API_KEY")
-genai.configure(api_key=os.getenv("GOOGLE_API_KEY")
+genai.configure(api_key=os.getenv("GOOGLE_API_KEY"))
 
 # Function to get Gemini response for text input
 def get_gemini_response(question):
